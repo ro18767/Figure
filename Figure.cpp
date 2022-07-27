@@ -84,7 +84,6 @@ double Polygon::get_area() const {
     double b = get_dist_between_points(points.at(j + 1), points.at(j + 2));
     double c = get_dist_between_points(points.at(j + 2), points.at(0));
     double triangle_sime_perimetr = (a + b + c) / 2;
-    cout << "get_area" << get_dist_between_points(points.at(j + 2), points.at(0)) << endl;
 
     double triangle_area = sqrt(triangle_sime_perimetr * (triangle_sime_perimetr - a) * (triangle_sime_perimetr - b) * (triangle_sime_perimetr - c));
     area += triangle_area;
