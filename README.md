@@ -30,21 +30,17 @@ Ellipse
 Testing Polygon:
 --
 3.41421
-get_area1
 0.5
 Polygon
 --
 Testing Triangle:
 --
 3.41421
-get_area1
 0.5
 Triangle
 --
 Testing Quadrilateral:
 --
 4
-get_area1.41421
-get_area1
 1
 Quadrilateral
